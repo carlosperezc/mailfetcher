@@ -1,0 +1,32 @@
+{
+  "gmail": {
+    "email": "nextcloud@perezcardenas.net",
+    "app_password": "apppassword_notaccoundpassword", --- IGNORE ---
+    "imap_server": "imap.gmail.com",
+    "imap_port": 993,
+    "mailbox": "INBOX",
+    "mark_as_read": true,
+    "only_unseen": true
+  },
+  "nextcloud": {
+    "base_url": "https://127.0.0.1:8099",
+    "username": "username",
+    "app_password": "accoundpassword",
+    "upload_folder": "/EmailAttachments",
+    "verify_ssl": false
+  },
+  "options": {
+    "local_download_dir": "./downloaded_attachments",
+    "delete_local_after_upload": true,
+    "allowed_extensions": [
+      "pdf",
+      "docx",
+      "xlsx",
+      "jpg",
+      "png",
+      "txt"
+    ],
+    "poll_interval_seconds": 60,
+    "run_once": true
+  }
+}
